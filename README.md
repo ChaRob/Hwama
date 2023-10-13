@@ -117,11 +117,11 @@
 
 ### 🎨 [와이어프레임](https://www.notion.so/404c63ffcecd4ed080c3e8c89b1791fd?pvs=4)
 
-### [📃 요구사항 정의서](/Exec/프로젝트 명세서/프로젝트명세서.md)
+### [📃 요구사항 정의서](/Exec/프로젝트%20명세서/프로젝트명세서.md)
 
-### [📝 인터페이스 명세서](/Exec/API 명세서/api.md)
+### [📝 인터페이스 명세서](/Exec/API%20명세서/api.md)
 
-### [📏 ERD](/Exec/데이터베이스 설계/database.md)
+### [📏 ERD](/Exec/데이터베이스%20설계/database.md)
 
 ### [📐 시스템 아키텍처](/Exec/아키텍처/architecture.md)
 
