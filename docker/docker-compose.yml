@@ -24,8 +24,8 @@ services:
         image: mysql:8.0.34
         restart: always
         environment:
-            MYSQL_ROOT_PASSWORD: 1234
-            MYSQL_DATABASE: onedb # create database
+            MYSQL_ROOT_PASSWORD: 
+            MYSQL_DATABASE: # create database
             TZ: Asia/Seoul
         ports:
             - 3306:3306
@@ -50,9 +50,9 @@ services:
             dockerfile: Dockerfile
         restart: always
         environment:
-            SPRING_DATASOURCE_URL: jdbc:mysql://database-mysql:3306/onedb?autoReconnect=true&serverTimezone=Asia/Seoul&useUnicode=true&characterEncoding=utf8
-            SPRING_DATASOURCE_USERNAME: b101
-            SPRING_DATASOURCE_PASSWORD: fjdjf384ohtfea838oa
+            SPRING_DATASOURCE_URL: 
+            SPRING_DATASOURCE_USERNAME: 
+            SPRING_DATASOURCE_PASSWORD: 
         networks:
             - game-network
         depends_on:
